@@ -1,0 +1,14 @@
+Tactical Performance Summary:
+4-3-3 (Wins: 1, Draws: 0, Losses: 0)
+4-4-2 (Wins: 0, Draws: 0, Losses: 1)
+4-2-3-1 (Wins: 0, Draws: 1, Losses: 0)
+
+The best structure is (4-3-3):
+Player 10: Goals - 2, Assists - 1
+Player 9: Goals - 1, Assists - 2
+
+Players sorted by Goals + Assists:
+Player 9: Goals - 1, Assists - 2
+Player 10: Goals - 2, Assists - 1
+ The best player is  9, Goals and Assists 3,  
+ The best player is  10, Goals and Assists 3,  
