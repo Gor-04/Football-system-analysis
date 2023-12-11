@@ -9,9 +9,8 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
 
 ## Overview
 
@@ -58,3 +57,51 @@ Before you begin, ensure you have met the following requirements:
 git clone https://github.com/Gor-04/football-system-analysis.git
 cd football-system-analysis
 make install
+```
+### Usage
+
+``` code
+// Example code snippets
+#include "analysis.h"
+// Usage Examples
+
+// Include the necessary header file
+#include "analysis.h"
+
+int main() {
+    // Create an array of matches to store match details
+    struct Match matches[5];  // Assuming 5 matches for illustration purposes
+
+    // Example 1: Recording a match with 4-3-3 formation
+    matches[0].finalScore = 2;
+    matches[0].finalScorethem = 1;
+    sprintf(matches[0].tactic, "4-3-3");
+
+    // Input goal scorer's positions
+    matches[0].scorerShirtNumber = 10;  // Example scorer shirt number
+    // ... (repeat for other goal scorers in the match)
+
+    // Input assistant's positions
+    matches[0].assistantShirtNumber = 7;  // Example assistant shirt number
+    // ... (repeat for other assistants in the match)
+
+    // Example 2: Recording a match with 4-4-2 formation
+    matches[1].finalScore = 1;
+    matches[1].finalScorethem = 1;
+    sprintf(matches[1].tactic, "4-4-2");
+    // ... (repeat the process for goal scorers and assistants)
+
+    // Continue providing examples for other matches...
+
+    // Display the results for each match
+    for (int i = 0; i < 5; i++) {
+        printf("Match %d - Formation: %s, Final Score: %d-%d\n", i + 1, matches[i].tactic, matches[i].finalScore, matches[i].finalScorethem);
+    }
+
+    return 0;
+}
+
+```
+  ### Contact
+
+  For any questions or inquiries, please contact [Gor-04](https://github.com/Gor-04).
