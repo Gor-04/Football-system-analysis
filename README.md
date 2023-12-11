@@ -55,6 +55,6 @@ Before you begin, ensure you have met the following requirements:
 
 ```bash
 # Example installation commands
-git clone https://github.com/yourusername/football-system-analysis.git
+git clone https://github.com/Gor-04/football-system-analysis.git
 cd football-system-analysis
 make install
